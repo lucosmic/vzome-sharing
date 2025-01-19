@@ -1,6 +1,6 @@
 ---
-title: PRJ DNA mod1
-share-description: A 3D design created in vZome.  Use your mouse or touch to interact.
+title: DNA Project Kit Model
+share-description: The model from the Buckyball project kit by The Zometool.
 image: https://lucosmic.github.io/vzome-sharing/2025/01/18/17-07-21-PRJ-DNA-mod1/PRJ-DNA-mod1.png
 layout: zometool
 ---
