@@ -1,9 +1,9 @@
 <details>
-<summary>How do I dropdown?</summary>
+<summary>Hyperdo Day</summary>
 <br>
-This is how you dropdown.
-</details>
+
 ## Hyperdo Day
+
 On Jan 19, 2025, I made a Hyperdodecahedron. 
 Here are the simple webpage links for each model in this kit. 
 - [***Hyperdo Full Build***      ](<https://lucosmic.github.io/vzome-sharing/2025/01/19/00-00-25-PRJ-HYP-mod1-hyperdo/>)
@@ -35,10 +35,7 @@ Here are the simple webpage links for each model in this kit.
 
    <img src="19/00-08-21-PRJ-HYP-mod6-blueFlat/PRJ-HYP-mod6-blueFlat.png" alt="Hyperdo" title="A hyperdo" width="250" />
 
+</details>
 
-
-[ <img src="19/00-00-25-PRJ-HYP-mod1-hyperdo/PRJ-HYP-mod1-hyperdo.png" alt="Hyperdo" title="A hyperdo" width="250" /> ]: #
- 
-[  ![Image](<19/00-00-25-PRJ-HYP-mod1-hyperdo/PRJ-HYP-mod1-hyperdo.png>) ]: #
 
  
