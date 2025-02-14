@@ -2,7 +2,7 @@
 title: PRJ HYP mod1 rev2 hyperdo
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png
-published: false
+published: true
 layout: zometool
 ---
 
