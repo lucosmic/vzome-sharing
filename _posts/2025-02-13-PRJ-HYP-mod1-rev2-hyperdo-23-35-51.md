@@ -19,13 +19,18 @@ vZome viewer below with only the finished HyperDo. No option to show build steps
 Perhaps no download buttons until the end. Or download button only on this one.
 Oops, image got squashed. How to clip image when determining height?
 ```
+
 <figure style="width: 50%; margin: 20%">
   
-  <zometool-instructions style="width: 60%; height: 40dvh"
+  <zometool-instructions style="width: 100%; height: 40dvh"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.vZome" >
     <img  style="width: 60%; height: 40dvh"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png" >
   </zometool-instructions>
+  <figcaption style="text-align: center; font-style: italic;">
+    Full HyperDo Preview
+ </figcaption>
+</figure>
 
 The 120-cell, or hyperdodecahedron, has a history dating back to the mid 19th century. Legendary mathematicians _stretched_ their mind to the 4th dimension and back with a dodecahedron, the 12-faced regular polyhedron made of pentagons. Zometool makes it easy to discover the elements behind this geometry. With simple steps, now __you__ can build this special model. 
 
@@ -45,6 +50,7 @@ Also, perhaps figure out how to default-unfold the details tag for this one.
 Also make this text heading. (Done!)
 Do we want these descriptions, as written above this code block, to be outside the _details_ fold?
 ```
+
 <figure style="width: 87%; margin: 5%">
   
   <zometool-instructions style="width: 100%; height: 80dvh"
@@ -52,6 +58,10 @@ Do we want these descriptions, as written above this code block, to be outside t
     <img  style="width: 100%"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png" >
   </zometool-instructions>
+  <figcaption style="text-align: center; font-style: italic;">
+  Dodecahedron Build
+ </figcaption>
+</figure>
 </details>
 
 <details>
@@ -60,7 +70,9 @@ Do we want these descriptions, as written above this code block, to be outside t
 </summary>
 <br>
  The Fat Red Cell is the first cell of the hyperdo, adjacent to the center dodecahedron, that has been squashed along the 5-axis (Coined "Red" in Zometool lingo). 
+ 
  `comments here`
+ 
  <figure style="width: 87%; margin: 5%">
  
  <zometool-instructions style="width: 100%; height: 80dvh"
@@ -125,7 +137,9 @@ Finish with yet another squashing of the dodecahedron along the 5-axis to create
 </summary>
 <br>
 There is actually a thin, 2-dimensional cell hidden among the outer edge of the HyperDo. It is squashed along the 2-fold (Blue) axis into a hexagonal shape. 
+ 
 `No steps..`
+
 <br>
 <figure style="width: 87%; margin: 5%">
  
@@ -155,6 +169,7 @@ Build of the HyperDo, starting with the step where we left off
 in the dodeca, but we can show all steps.
 Any motion to split these steps into different viewers?
 ```
+
 <figure style="width: 87%; margin: 5%">
   
   <zometool-instructions style="width: 600%; height: 80dvh"
@@ -171,6 +186,7 @@ Any motion to split these steps into different viewers?
 
 <br>
 <br>
+
 `Scratchpad - save for later`
 
 <details>
@@ -179,9 +195,12 @@ Any motion to split these steps into different viewers?
 </summary>
 <br>
 Insert an intro to the instructions
+ 
 `pseudo-commentary on the way the vZome viewer should behave`
+
 <br>
-`insert the vZome viewer code here'
+
+`insert the vZome viewer code here`
 
 
 </details>
