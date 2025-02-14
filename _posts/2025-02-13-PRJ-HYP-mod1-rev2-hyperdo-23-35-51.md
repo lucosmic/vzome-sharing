@@ -20,9 +20,9 @@ Perhaps no download buttons until the end. Or download button only on this one.
 Oops, image got squashed. How to clip image when determining height?
 ```
 
-<figure style="width: 50%; margin: 20%">
+<figure style="width: 87%; margin: 5%">
   
-  <zometool-instructions style="width: 100%; height: 40dvh"
+  <zometool-instructions style="width: 60%; height: 40dvh"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.vZome" >
     <img  style="width: 60%; height: 40dvh"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png" >
