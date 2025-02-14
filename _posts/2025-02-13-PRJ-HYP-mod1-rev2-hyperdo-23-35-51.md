@@ -17,7 +17,8 @@ Let's build a HyperDo!
 ```
 vZome viewer below with only the finished HyperDo. No option to show build steps. 
 Perhaps no download buttons until the end. Or download button only on this one.
-Oops, image got squashed. How to clip image when determining height?
+Oops, image got squashed in md display. How to clip image when determining height?
+In HTML display, it's not centered.
 ```
 
 <figure style="width: 87%; margin: 5%">
@@ -42,15 +43,23 @@ First, we will explore the different elements of the HyperDo, take them apart, t
 </summary>
 <br>
 The Dodecahedron is at the heart of the HyperDo. It comprises the first set of the HyperDo build instructions, so keep this model around! 
-
+<br>
+ 
 ```
 insert vZome viewer of the HyperDo first steps of the dodecahedron, the first 18 steps?
 No option to show build steps. (The option should always be enabled from here on)
 Also, perhaps figure out how to default-unfold the details tag for this one.
 Also make this text heading. (Done!)
 Do we want these descriptions, as written above this code block, to be outside the _details_ fold?
-```
+This code view and the following ones display correctly in md preview mode but not HTML mode.
+..The first one displays correctly. What's going on here?
+..trying with adding br and whitespace both. (in this one. In next one, adding the 'code' html tags.)
 
+Also the details summary heading displays on a separate line from the triangle.
+..Trying w different ordering of h2 in next one..didnt work in md mode.
+```
+ 
+<br>
 <figure style="width: 87%; margin: 5%">
   
   <zometool-instructions style="width: 100%; height: 80dvh"
@@ -70,9 +79,9 @@ Do we want these descriptions, as written above this code block, to be outside t
 </summary>
 <br>
  The Fat Red Cell is the first cell of the hyperdo, adjacent to the center dodecahedron, that has been squashed along the 5-axis (Coined "Red" in Zometool lingo). 
- 
- `comments here`
- 
+ <br>
+ <code>comments here</code>
+ <br>
  <figure style="width: 87%; margin: 5%">
  
  <zometool-instructions style="width: 100%; height: 80dvh"
@@ -138,7 +147,7 @@ Finish with yet another squashing of the dodecahedron along the 5-axis to create
 <br>
 There is actually a thin, 2-dimensional cell hidden among the outer edge of the HyperDo. It is squashed along the 2-fold (Blue) axis into a hexagonal shape. 
  
-`No steps..`
+<code>No steps..</code>
 
 <br>
 <figure style="width: 87%; margin: 5%">
@@ -195,13 +204,10 @@ Any motion to split these steps into different viewers?
 </summary>
 <br>
 Insert an intro to the instructions
- 
-`pseudo-commentary on the way the vZome viewer should behave`
-
+ <br>
+<code>pseudo-commentary on the way the vZome viewer should behave</code>
 <br>
-
-`insert the vZome viewer code here`
-
+<code>insert the vZome viewer code here</code>
 
 </details>
 
