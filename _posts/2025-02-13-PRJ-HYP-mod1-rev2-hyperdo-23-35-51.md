@@ -18,14 +18,14 @@ Let's build a HyperDo!
 vZome viewer below with only the finished HyperDo. No option to show build steps. 
 Perhaps no download buttons until the end. Or download button only on this one.
 Oops, image got squashed in md display. How to clip image when determining height?
-In HTML display, it's not centered.
+In HTML display, it's not centered. Trying an align tag..
 ```
 
 <figure style="width: 87%; margin: 5%">
   
-  <zometool-instructions style="width: 60%; height: 40dvh"
+  <zometool-instructions style="width: 60%; height: 40dvh; align-items: center"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.vZome" >
-    <img  style="width: 60%; height: 40dvh"
+    <img  style="width: 60%; height: 40dvh; align-items: center"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png" >
   </zometool-instructions>
   <figcaption style="text-align: center; font-style: italic;">
@@ -44,20 +44,17 @@ First, we will explore the different elements of the HyperDo, take them apart, t
 <br>
 The Dodecahedron is at the heart of the HyperDo. It comprises the first set of the HyperDo build instructions, so keep this model around! 
 <br>
- 
-```
-insert vZome viewer of the HyperDo first steps of the dodecahedron, the first 18 steps?
+<code>insert vZome viewer of the HyperDo first steps of the dodecahedron, the first 18 steps?
 No option to show build steps. (The option should always be enabled from here on)
 Also, perhaps figure out how to default-unfold the details tag for this one.
 Also make this text heading. (Done!)
 Do we want these descriptions, as written above this code block, to be outside the _details_ fold?
 This code view and the following ones display correctly in md preview mode but not HTML mode.
 ..The first one displays correctly. What's going on here?
-..trying with adding br and whitespace both. (in this one. In next one, adding the 'code' html tags.)
-
+..trying with adding adding the 'code' html tags.
 Also the details summary heading displays on a separate line from the triangle.
 ..Trying w different ordering of h2 in next one..didnt work in md mode.
-```
+</code>
  
 <br>
 <figure style="width: 87%; margin: 5%">
