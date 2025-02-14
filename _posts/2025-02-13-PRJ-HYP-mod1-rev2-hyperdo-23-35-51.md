@@ -146,9 +146,8 @@ Finish with yet another squashing of the dodecahedron along the 5-axis to create
 </summary>
 <br>
 There is actually a thin, 2-dimensional cell hidden among the outer edge of the HyperDo. It is squashed along the 2-fold (Blue) axis into a hexagonal shape. 
- 
+<br>
 <code>No steps..</code>
-
 <br>
 <figure style="width: 87%; margin: 5%">
  
@@ -167,7 +166,10 @@ There is actually a thin, 2-dimensional cell hidden among the outer edge of the 
 <h2>Combining the Elements</h2>
 Can you see the original dodecahedron traced onto the other cells? Use shadows! If it's a sunny day, stand out in the sun and try to line the shadows of each of the other models up with the original dodecahedron. You can always use a projector too! 
 
-`vZome demo of each model lining up?`
+```
+vZome demo of each model lining up?
+Show each individual cell tacking on the Hyperdo, as in Rev 1?
+```
 
 <h2>Construction of the Final HyperDo</h2>
 <br>
@@ -177,11 +179,12 @@ Now that you've familiarized yourself with the different cells of the HyperDo, g
 Build of the HyperDo, starting with the step where we left off
 in the dodeca, but we can show all steps.
 Any motion to split these steps into different viewers?
+What about adding titles and descriptions to each step in the build?
 ```
 
 <figure style="width: 87%; margin: 5%">
   
-  <zometool-instructions style="width: 600%; height: 80dvh"
+  <zometool-instructions style="width: 60%; height: 80dvh"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.vZome" >
     <img  style="width: 60%"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png" >
