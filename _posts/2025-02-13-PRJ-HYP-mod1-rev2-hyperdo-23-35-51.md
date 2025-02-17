@@ -21,13 +21,13 @@ Oops, image got squashed in md display. How to clip image when determining heigh
 In HTML display, it's not centered. Trying an align tag..
 ```
 
-<figure style="width: 87%; margin: 5%">
+<figure style="width: 87%; height:60dvh; margin: 5%">
   
-  <zometool-instructions style="width: 60%; height: 40dvh; align-items: center"
+  <vzome-viewer style="width: 100%; height: 100%; align-items: center"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.vZome" >
     <img  style="width: 60%; height: 40dvh; align-items: center"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png" >
-  </zometool-instructions>
+  </vzome-viewer>
   <figcaption style="text-align: center; font-style: italic;">
     Full HyperDo Preview
  </figcaption>
@@ -181,9 +181,9 @@ What about adding titles and descriptions to each step in the build?
 
 <figure style="width: 87%; margin: 5%">
   
-  <zometool-instructions style="width: 60%; height: 80dvh"
+  <zometool-instructions style="width: 100%; height: 100%"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.vZome" >
-    <img  style="width: 60%"
+    <img  style="width: 60%; align-items: center"
         src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png" >
   </zometool-instructions>
 
