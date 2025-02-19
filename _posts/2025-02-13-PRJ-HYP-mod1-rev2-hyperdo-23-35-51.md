@@ -14,7 +14,6 @@ layout: zometool
 
  <p>Let's build a HyperDo! </p>
 
-
 <code>vZome viewer below with only the finished HyperDo. No option to show build steps. 
 Perhaps no download buttons until the end. Or download button only on this one.
 Oops, image got squashed in md display. How to clip image when determining height?
