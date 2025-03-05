@@ -1,9 +1,29 @@
+
 ---
 title: Scene Subsets from One vZome Design
 description:
   Testing three vZome viewers, each with a subset of scenes from one design
 published: true
----
+--- 
+
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scene Subsets from One vZome Model</title>
+  <style>
+      summary {
+          font-size: 1.5em; /* Adjust the size as needed */
+          font-weight: bold;
+          margin-bottom: 10px;
+          cursor: pointer; /* Makes it clear that it's clickable */
+      }
+      summary > * {
+        display: inline
+      }
+  </style>
+</head>
 
 <script type="module">
   import "https://www.vzome.com/modules/vzome-viewer.js";
@@ -74,17 +94,18 @@ published: true
 </p>
 
 <figure style="width: 87%; margin: 5%" id="fat-red">
+  
+  <vzome-viewer style="width: 100%; height: 40vh" reactive='false'
+      src="https://lucosmic.github.io/vzome-sharing/2025/01/18/23-59-30-PRJ-HYP-mod1-hyperdo/PRJ-HYP-mod1-hyperdo.vZome" >
+    <img style="width: 100%"
+      src="https://lucosmic.github.io/vzome-sharing/2025/01/18/23-59-30-PRJ-HYP-mod1-hyperdo/PRJ-HYP-mod1-hyperdo.png" >
+  </vzome-viewer>
   <div style='display:flex;'>
     <div style='margin: auto;'>
       <button class='previous'>prev scene</button>
       <button class='next'>next scene</button>
     </div>
   </div>
-  <vzome-viewer style="width: 100%; height: 40vh" reactive='false'
-      src="https://lucosmic.github.io/vzome-sharing/2025/01/18/23-59-30-PRJ-HYP-mod1-hyperdo/PRJ-HYP-mod1-hyperdo.vZome" >
-    <img style="width: 100%"
-      src="https://lucosmic.github.io/vzome-sharing/2025/01/18/23-59-30-PRJ-HYP-mod1-hyperdo/PRJ-HYP-mod1-hyperdo.png" >
-  </vzome-viewer>
   <figcaption style="text-align: center; font-style: italic;">
     This viewer is controlled to show three scenes out of many in the vZome design
   </figcaption>

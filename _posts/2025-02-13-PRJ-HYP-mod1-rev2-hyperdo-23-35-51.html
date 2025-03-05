@@ -1,12 +1,13 @@
-<!--
- ---
+
+---
 title: HyperDo Instructions
 description: Build a HyperDo with these instructions that make it easy!  Use your mouse or touch to interact.
 image: https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png
 published: true
 layout: zometool
 --- 
--->
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,6 +24,40 @@ layout: zometool
         }
         summary > * {
           display: inline
+        }
+        /*figure > vzome-viewer {
+          width: 100%;
+          height: 100%;
+        }
+        figure > vzome-viewer > img {
+          height:100%; width:100%; object-fit:cover
+        } 
+        figure > zometool-instructions {
+          width: 100%; height: 100%;
+        }
+        figure > zometool-instructions > img {
+          height:100%; width:100%; object-fit:cover
+        } */
+        figure.vzv-full > *:first-child {
+          width: 100%; height: 100%;
+        }
+        figure.vzv-full > *:first-child > img {
+          height:100%; width:100%; object-fit:cover
+        }
+        figure.vzv-full > figcaption {
+          text-align: center; font-style: italic;
+        }
+        figure.vzv-full:has(vzome-viewer) {
+          width: 87dvw; height:60dvw; 
+          min-height: calc(102px + 70px + 32px);
+          min-width: calc(110px + 70px + 32px);
+          margin: 5%; text-align: center
+        }
+        figure.vzv-full:has(zometool-instructions) {
+          width: 87dvw; height:calc(60dvw + 30px + 64px); 
+          min-height: calc(110px + 70px + 62px + 30px + 64px);
+          min-width: calc(110px + 70px + 32px);
+          margin: 5%; text-align: center
         }
     </style>
 </head>
@@ -132,7 +167,11 @@ layout: zometool
 <script type="module" src="https://www.vzome.com/modules/vzome-viewer.js"></script>
 <script type="module" src="https://www.vzome.com/modules/zometool.js"></script>
 
- <h2>Let's build a HyperDo! </h2>
+
+
+
+
+ <h1>Let's build a HyperDo! </h1>
 
  <!--
 <code>vZome viewer below with only the finished HyperDo. No option to show build steps. 
@@ -141,14 +180,12 @@ Oops, image got squashed in md display. How to clip image when determining heigh
 In HTML display, it's not centered. Trying an align tag..</code>
 -->
 
-<figure style="width: 87%; height:60dvh; margin: 5%; text-align: center">
+<figure class="vzv-full"> <!--style="width: 87%; height:60dvh; margin: 5%; text-align: center">-->
   
-  <vzome-viewer style="width: 100%; height: 100%; " 
-        src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.vZome" >
-    <img  style="height:100%; width:100%; object-fit:cover"
-        src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png" >
+  <vzome-viewer src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.vZome" >
+    <img        src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png" >
 </vzome-viewer>
-  <figcaption style="text-align: center; font-style: italic;">
+  <figcaption>
     Full HyperDo Preview
  </figcaption>
 </figure>
@@ -181,16 +218,14 @@ Also the details summary heading displays on a separate line from the triangle.
 -->
  
 <br>
-<figure style="width: 87%; height: 80dvh; margin: 5%; text-align: center" > <!-- id="dodeca-in-hyperdo"> -->
+<figure class="vzv-full" > <!-- id="dodeca-in-hyperdo"> -->
   
-  <zometool-instructions style="width: 100%; height: 100%"  
-        src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.vZome" 
-        >
+  <zometool-instructions  
+          src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.vZome" >
         <!-- scene="#19" id="single"> -->
-    <img  style="width:100%; object-fit:cover"
-        src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png" >
+    <img  src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.png" >
   </zometool-instructions>
-  <figcaption style="text-align: center; font-style: italic;">
+  <figcaption>
   Dodecahedron Build
  </figcaption>
 </figure>
