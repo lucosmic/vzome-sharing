@@ -45,20 +45,26 @@ published: true
         }
         figure.vzv-full > figcaption {
           text-align: center; font-style: italic;
+          align-content: center;
+          height: 3em;
+        }
+        figure.vzv-full {
+          width: 70dvw; margin: 16px 5% 48px;
+          justify-self: center;
         }
         figure.vzv-full:has(vzome-viewer) {
-          width: 70dvw; height:60dvw; 
+          
+          height:60dvw; 
           min-height: calc(102px + 70px + 32px);
           min-width: calc(110px + 70px + 32px);
-          margin: 5%; 
-          justify-self: center;
         }
         figure.vzv-full:has(zometool-instructions) {
-          width: 70dvw; height:calc(60dvw + 30px + 64px); 
+          button.exports__trigger {
+            visibility: hidden;
+          }
+          height:calc(60dvw + 30px + 64px); 
           min-height: calc(110px + 70px + 62px + 30px + 64px);
           min-width: calc(110px + 70px + 32px);
-          margin: 5%; 
-          justify-self: center;
         }
     </style>
 </head>
@@ -202,7 +208,6 @@ In HTML display, it's not centered. Trying an align tag..</code>
 <br>
  <p>The Dodecahedron is at the heart of the HyperDo. It comprises the first set of the HyperDo build instructions, so keep this model around! </p>
 
-<br>
 
 <!-- 
 <code>insert vZome viewer of the HyperDo first steps of the dodecahedron, the first 18 steps?
@@ -218,7 +223,6 @@ Also the details summary heading displays on a separate line from the triangle.
 </code> 
 -->
  
-<br>
 <figure class="vzv-full" > <!-- id="dodeca-in-hyperdo"> -->
   <zometool-instructions  
           src="https://lucosmic.github.io/vzome-sharing/2025/02/13/23-35-51-PRJ-HYP-mod1-rev2-hyperdo/PRJ-HYP-mod1-rev2-hyperdo.vZome" >
